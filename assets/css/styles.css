@@ -1,10 +1,14 @@
 /* --- STYLES FOR ALL PAGES --- */
+.container{
+  background: rgb(167, 161, 161);
+}
 body {
   /* Typography */
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
   background-image: url("../imgs/bgrd.png");
+  background-repeat: repeat-x;
 }
 
 html {
@@ -64,7 +68,7 @@ h4 {
 }
 
 .navbar {
-  background: white;
+  background: rgb(19, 15, 15);
   border: none;
 }
 
@@ -76,7 +80,11 @@ h4 {
   }
 }
 /* END NAV */
+/* .container{
+margin: center;
+text-align: center;
 
+} */
 
 /* CONNECT W/ ME CSS */
 .connect-header {
