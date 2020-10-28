@@ -31,10 +31,33 @@ h4 {
   background-color: #003300;
 }
 /* create styles for use for all white main boxes */
-.block {
+/* .block {
   background-color: #fff;
   padding: 30px;
   margin-bottom: 30px;
+} */
+section{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.block {
+  background-color: #fff;
+  padding: 30px;
+
+  /* margin-bottom: 30px; */
+  /* position: absolute;
+  right: 0;
+  left: 0;
+  top: 10; */
+}
+a:hover {
+  background-color: yellow;
+}
+a:link {
+  background-color: #F5A470;
 }
 .block p{
   display:inline;
@@ -70,6 +93,17 @@ h4 {
 .navbar {
   background: rgb(19, 15, 15);
   border: none;
+}
+
+.myColor{
+  color: #F5A470
+}
+.myBG{
+  background-color: #F5A470
+}
+.isInline{
+  display: inline-block;
+  position: relative;
 }
 
 /* media query for nav background color change */
